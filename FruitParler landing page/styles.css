@@ -1,0 +1,328 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: url(FruitParler.jpg) no-repeat ;   
+}
+h2{
+    font-size: 2.4rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #383b39;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+ nav a:hover{
+    color: blue;
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero {
+    background-size: 5rem;
+    background-position: center;
+    color: #2a8e48;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #32a852;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #2a8e48;
+}
+
+/* styles.css */
+/* Apply a background color to the menu section */
+/* styles.css */
+/* Apply a background color to the menu section */
+#menu {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the menu item containers */
+.menu-item {
+    background-color: #11082d;
+    border: 1px solid #574444;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+/* Style the menu item images */
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Style the menu item titles */
+.menu-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style the menu item descriptions */
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style the menu item prices */
+.menu-item .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+
+/*About Section Start*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3145;
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section_all {
+    background: url(Fruit-parler-Bg-about.png) no-repeat;
+    background-size: 10%;
+    background-color: #2c3145;
+    font-size: 34px;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+.section-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section-subtitle {
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    max-width: 550px;
+}
+
+.section-title-border {
+    background-color: #000;
+    height: 1 3px;
+    width: 44px;
+}
+
+.section-title-border-white {
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+}
+.text_custom {
+    color: #00bd2a;
+}
+
+.about_icon i {
+    font-size: 56px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    color: #00bd2a;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.about_header_main .about_heading {
+    /*max-width: 450px;*/
+    font-size: 24px;
+}
+
+.about_icon span {
+    position: relative;
+    top: -10px;
+}
+
+.about_content_box_all {
+    padding: 28px;
+}
+/*About Section End*/
+
+/*Contact From*/
+/* Add these styles for the contact form */
+#contact {
+    background: url(Fruitparler.ContactFrombg.png) no-repeat;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* For screens up to 768px wide */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    header {
+        padding: 0.5rem;
+    }
+    
+    nav li {
+        margin-right: 10px;
+    }
+    
+    .menu-item {
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .menu-item img {
+        max-width: 100%;
+    }
+    
+    .menu-item h3 {
+        font-size: 16px;
+    }
+    
+    .menu-item p {
+        font-size: 12px;
+    }
+    
+    .menu-item .price {
+        font-size: 14px;
+    }
+    
+    .section_all {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .about_icon i {
+        font-size: 40px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    
+    .about_header_main .about_heading {
+        font-size: 18px;
+    }
+    
+    .about_icon span {
+        top: -5px;
+    }
+    
+    .about_content_box_all {
+        padding: 14px;
+    }
+    
+    .contact-form {
+        max-width: 300px;
+    }
+}
+
+/* For screens between 769px and 1024px wide */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Add your responsive styles here */
+}
+
+/* For screens above 1024px wide */
+@media (min-width: 1025px) {
+    /* Add your responsive styles here */
+}
+
